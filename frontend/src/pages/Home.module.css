@@ -1,0 +1,104 @@
+.container {
+    max-width: 1172px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.slider-section {
+    background-color: #f5f7fa;
+}
+
+.slider-main {
+    gap: 50px;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+#header-content-left {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-content-header {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: #4d4d4d;
+}
+
+.main-content-header span {
+    color: #4caf4f;
+}
+
+.sub-content-header {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #717171;
+    margin-bottom: 40px;
+}
+
+.register-btn {
+    background-color: #4caf4f;
+    color: white;
+    padding: 14px 32px 14px 32px;
+    border-radius: 4px;
+    border: none;
+    width: 128px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.slick-dots {
+    position: absolute;
+    display: block;
+    bottom: 0 !important;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #4caf4f !important;
+}
+
+#side-by-side {
+    display: flex;
+}
+
+/* .homepage {
+    height: calc(100vh - 5rem);
+    margin: 2.5rem;
+    background-image: linear-gradient(rgba(36, 42, 46, 0.8),
+            rgba(36, 42, 46, 0.8)),
+        url("/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 2.5rem 5rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 4.5rem;
+    line-height: 1.3;
+}
+
+.h2 {
+    width: 90%;
+    font-size: 1.9rem;
+    color: var(--color-light--1);
+    margin-bottom: 2.5rem;
+} */
